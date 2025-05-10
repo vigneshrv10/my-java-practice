@@ -2,7 +2,7 @@ import java.util.*;
 public class BinarytoDecimal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number : ");
+        System.out.print("Enter binary number : ");
         int n = sc.nextInt();
         int result = 0;
         int power = 0;
