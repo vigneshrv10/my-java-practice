@@ -22,7 +22,7 @@ public class PrintSubarrays {
             System.out.println();
         }
         System.out.println("Times : "+times);
-        System.out.println("Maximum Sub Array Sum : "+maxsubarray_sum);
+        System.out.println("Maximum Sub Array Sum : "+maxsubarray_sum); // brute force approcach
         System.out.println("Minimum Sub Array Sum : "+minsubarray_sum);
     }
     public static void main(String[] args) {
