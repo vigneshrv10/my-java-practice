@@ -4,7 +4,7 @@ public class PrintSubarrays {
         int maxsubarray_sum = Integer.MIN_VALUE;
         int minsubarray_sum = Integer.MAX_VALUE;
         for (int i=0;i<=n.length-1;i++){
-            for (int j=i+1;j<n.length;j++){
+            for (int j=i;j<n.length;j++){
                 int subarraysum = 0;
                 for (int k=i;k<=j;k++){
                     System.out.print(n[k]+" ");
